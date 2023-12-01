@@ -139,9 +139,10 @@ class ExosDriver(NetworkDriver):
         pass
 
     def get_facts(self):
-        facts = self._get_and_parse_output(
-            'show version')
-        return facts
+        #facts = self._get_and_parse_output(
+        #    'show version')
+        #return facts
+        pass
 
     def get_firewall_policies(self):
         pass
